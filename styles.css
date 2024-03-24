@@ -1,0 +1,144 @@
+
+html, body, header, nav, ul, li, main, section, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Aguila;
+  }
+  
+  
+  #header {
+    background-color:White;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header-img {
+    width: 100px; 
+  }
+  
+  #landing-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  #nav-bar {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  .nav-link {
+    color:Black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  #bikes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  figure {
+      width: 30%; 
+      margin: 10px;
+      text-align: center;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  #description-brand{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  
+  #brand{
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+  
+  #price {
+      color:black;  
+  }
+  
+  #description-team{
+    text-align: justify;
+  }
+  
+  #team, #shop, #support, #retailers, #contact, #video{
+    color:black;  
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #parts {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  #SN, #email {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  
+  #submit {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  #submit:hover {
+    background-color: darkred;
+  }
+  
+  main {
+    padding-top: 3px; 
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    #header {
+      padding: 10px;
+    }
+  
+    #footer{
+      color: white;
+    }
